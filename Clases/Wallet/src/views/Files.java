@@ -5,14 +5,13 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Properties;
 public class Files {
-    public static void main(String[] args) {
+    public static void main3(String[] args) {
     try {
         InputStream ins = new FileInputStream("./data/da.txt");
         Properties prop = new Properties();
         prop.load(ins);
         System.out.println(prop.getProperty("58"));
        } catch (Exception e) {
-           //TODO: handle exception
        }
        
       /* public void leerDatos(){
@@ -29,6 +28,6 @@ public class Files {
             } catch (Exception e) {
                 //TODO: handle exception
             }
-       // }*/
+       }*/
     }
 }
