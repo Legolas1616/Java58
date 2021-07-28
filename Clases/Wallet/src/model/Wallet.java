@@ -47,6 +47,9 @@ public class Wallet {
             return "El saldo excede la capacidad maxima " + CAPACIDAD_MAXIMA;
         }
         saldo += value;
+        if(verificarMeta()){
+            System.out.println("haz cumplido la meta");
+        }
         return "Transaccion exitosa, nuevo saldo " + saldo;
     }
 
