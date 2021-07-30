@@ -2,7 +2,7 @@ package views;
 
 import model.Wallet;
 public class Vista {
-    public static void main(String[] args) throws Exception {
+    public static void main1(String[] args) throws Exception {
         Wallet wallet1 = new Wallet();
         Wallet wallet2 = new Wallet();
         System.out.println(wallet1.getSaldo());
